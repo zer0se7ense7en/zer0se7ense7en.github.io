@@ -18,7 +18,8 @@
             <author>zer0se7ense7en</author>
             <description>Dies ist mein erster Post</description>
             <content:encoded><![CDATA[
-                <p> Dies ist der Postinhalt </p>
+                    <h1>It works!</h1>
+                <p>Yay it works! The RSS feed is finally up and running!</p>
             ]]></content:encoded>
         </item>
 
