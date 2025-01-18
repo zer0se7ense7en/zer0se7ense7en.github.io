@@ -2,14 +2,14 @@
 <rss version="2.0">
     <channel>
         <title>zer0se7ense7en's Blog</title>
-        <link>https://zer0se7ense7en.github.io/blog/</link>
+        <link>https://zer0se7ense7en.org/blog/</link>
         <language>de</language>
         <copyright>zer0se7ense7en (CC BY-SA 4.0)</copyright>
         <description>The personal Blog of zer0se7ense7en</description>
 
         <item>
             <title>Erster Post</title>
-            <link>https://zer0se7ense7en.github.io/blog/POST1</link>
+            <link>https://zer0se7ense7en.org/blog/POST1</link>
             <pubDate>Sat, 18 Jan 2025 17:51:50 +0200</pubDate>
             <author>zer0se7ense7en</author>
             <description>Die gesamte Artikelbeschreibung</description>
