@@ -1,21 +1,22 @@
 <?xml version="1.0"?>
-<rss version="2.0">
-    <channel>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel> 
         <title>zer0se7ense7en's Blog</title>
         <link>https://zer0se7ense7en.org/blog/</link>
         <language>de</language>
         <copyright>zer0se7ense7en (CC BY-SA 4.0)</copyright>
-        <description>The personal Blog of zer0se7ense7en</description>
+        <description>The personal blog of zer0se7ense7en</description>
 
         <item>
             <title>Erster Post</title>
-            <link>https://zer0se7ense7en.org/blog/POST1</link>
+            <link>https://zer0se7ense7en.org/blog/posts/1</link>
+            <guid isPermaLink="true">https://zer0se7ense7en.org/blog/posts/1</guid>
             <pubDate>Sat, 18 Jan 2025 17:51:50 +0200</pubDate>
             <author>zer0se7ense7en</author>
-            <description>Die gesamte Artikelbeschreibung</description>
-            <content>
-                <p>Hier ist ein Paragraph</p>
-            </content>
+            <description>Dies ist mein erster Post</description>
+            <content:encoded><![CDATA[
+                <p> Dies ist der Postinhalt </p>
+            ]]></content:encoded>
         </item>
 
     </channel>
