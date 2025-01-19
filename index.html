@@ -13,25 +13,26 @@
   <link rel="manifest" href="/site.webmanifest">
   <script>document.addEventListener('DOMContentLoaded', () => {
 
-    // Get all "navbar-burger" elements
-    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-  
-    // Add a click event on each of them
-    $navbarBurgers.forEach( el => {
-      el.addEventListener('click', () => {
-  
-        // Get the target from the "data-target" attribute
-        const target = el.dataset.target;
-        const $target = document.getElementById(target);
-  
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        el.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
-  
+      // Get all "navbar-burger" elements
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+        el.addEventListener('click', () => {
+
+          // Get the target from the "data-target" attribute
+          const target = el.dataset.target;
+          const $target = document.getElementById(target);
+
+          // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+          el.classList.toggle('is-active');
+          $target.classList.toggle('is-active');
+
+        });
       });
-    });
-  
-  });</script>
+
+    });</script>
+
 </head>
 
 <body>
@@ -216,7 +217,8 @@
         </svg>
       </a>
 
-      <a role="button" class="navbar-burger" aria-label="navMenu" aria-expanded="false" data-target="navbarBasicExample">
+      <a role="button" class="navbar-burger" aria-label="navMenu" aria-expanded="false"
+        data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -252,7 +254,28 @@
 
 
     <div class="container">
+      <div class="box">
+        <div class="content" style="font-family: 'Courier New', Courier, monospace;">
+          
+          zer0se7ense7en@nixos:%
+          <span id="element"></span>
 
+          <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+          <script>
+            var typed = new Typed('#element', {
+              strings: [
+                'git clone git@gitlab.olaf.one:zer0se7ense7en/077nixos.git',
+                'cd 077nixos',
+                'sudo nixos-rebuild switch --flake .#zer077',
+                'Done. ^1000 Your whole OS is setup and running. ^1000 Imagine still relying on imperative hell when declarative heaven exists.',
+              ],
+              typeSpeed: 42,
+              cursorChar: '█',
+            });
+            
+          </script>
+        </div>
+      </div>
     </div>
   </section>
 </body>
