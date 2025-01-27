@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>zer0se7ense7en's Thoughts</title>
+        <link>https://zer0se7ense7en.org/thoughts/</link>
+        <language>de</language>
+        <atom:link href="https://zer0se7ense7en.org/thoughts/index.xml" rel="self"
+            type="application/rss+xml" />
+        <copyright>zer0se7ense7en (CC BY-SA 4.0)</copyright>
+        <description>The thoughts of zer0se7ense7en</description>
+
+        <item>
+            <title>Der Teufel trägt Polohemd</title>
+            <link>https://zer0se7ense7en.org/thoughts</link>
+            <pubDate>Mon, 27 Jan 2025 16:00:43 +0200</pubDate>
+            <author>zer0se7ense7en</author>
+            <description>Der Teufel trägt Polohemd</description>
+            <content:encoded><![CDATA[
+                <h1>"Der Teufel trägt Polohemd"</h1>
+            ]]></content:encoded>
+        </item>
+
+    </channel>
+</rss> 
