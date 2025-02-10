@@ -1,8 +1,5 @@
 # TODO:
 - Cool Landing Page, new cool stuff: a ticking clock, some counters, something interactive
-- Kontaktmöglichkeiten: Matrix, GPG-key
-- Thoughts Blog and RSS Feed
-- Memes Gallery (and RSS Feed?)
 
 # NEW POST CHECKLIST:
 ## NEW Nth BLOG POST:
