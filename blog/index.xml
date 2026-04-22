@@ -23,5 +23,18 @@
             ]]></content:encoded>
         </item>
 
+        <item>
+            <title>Gadsen streicheln! (in Berlin)</title>
+            <link>https://zer0se7ense7en.org/blog/posts/2</link>
+            <guid isPermaLink="true">https://zer0se7ense7en.org/blog/posts/2</guid>
+            <pubDate>Wed, 9 Apr 2025 20:02:20 +0200</pubDate>
+            <author>zer0se7ense7en</author>
+            <description>Ein Bericht über die Katzencafés Berlin's</description>
+            <content:encoded><![CDATA[
+                    <h1>It works!</h1>
+                <p>Yay it works! The RSS feed is finally up and running!</p>
+            ]]></content:encoded>
+        </item>
+
     </channel>
 </rss> 
